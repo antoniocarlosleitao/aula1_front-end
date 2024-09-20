@@ -1,66 +1,170 @@
-body{
+*{
+    font-family: open sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #d9d9d9;
-    font-family: Arial, Helvetica, sans-serif;
+ }
+ #topo{
+    background-color: #f3f3f3;
+    height: 44px;
+ }
+ h2{
+    color: #0b4bac;
+ }
+ ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 98px;
+    }
+ul li{
+    padding: 10px;
 }
-header{
-    height: 110px;
-    width: 100vw;
-    background-color: #434343;
+ul li a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #003057;
+}
+ul li a:hover{
+    color: #008cff;
+}
+#topo nav{
+    height: 44px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#logoFundo{
+    background-color: #0F0F0F;
+    width: 233.5px;
+    height: 88px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
-header img{
-    width: 121px;
+#logoFundo img{
+    width: 143px;
+    height: 35px;
 }
-header svg{
-    position: absolute;
-    top: 20px;
-    right: 20px;
+nav{
+    display: flex;
+}
+#menuPrincipal{
+    margin: 0px;
+    padding: 0px;
+}
+#menuPrincipal li{
+    background-color: #FFFFFF;
+    padding: 15px;
+    color: #003057;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+#menuPrincipal li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #003057;
+}
+#menuPrincipal li a:hover{
+    color: #008cff;
+}
+#carousel img{
+    width: 100vw;
+}
+#texto1{
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    padding: 0px 15px;
+}
+#texto2 h3{
+    font-size: 18px;
+    color:  #007BFF;
+}
+header section h2{
+    color: #003057;
+    height: 150px;
+    font-size: 28px;
+    margin-top: 27px;
+    padding: 0px 15px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 main{
-    padding: 3px 30px 0px 30px ;
+    padding: 10px 25px;
+    margin: 15px 0px;
 }
-.titulo{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+main section h3{
+    color: #007bff;
+    font-size: 18px;
 }
-#carrinho{
-    background-color: #1e75F9;
-    padding: 8px;
-    border-radius: 50%;
+main section h1{
+    color: #003057;
+    font-size: 32px;
 }
-.titulo h1{
-    font-size: 26px;
-    color: #395786;
+.cursos{
+    background-color: #003057;
+    /* 100%/4=25% */
+    width: 22%;
+    margin: 1rem;
+    border-radius: 20px;
+    box-shadow: 1px 2px 7px 0px #003057;
 }
-.titulo h2{
-    font-size: 20px;
+.imgbg{
+    background-image: linear-gradient(180deg, rgba(0, 44, 83, 0) 0%, rgba(0, 44, 83, .34375) 74.48%, #002C53 100%);
+    position: absolute;
+    z-index: 1000;
+    
 }
-.produto article{
-    border: solid 4px #1e75F9;
-    width: 124px;
-    height: 165px;
-}
-.produto article .cart{
+.cursos img{
     width: 100%;
-    background-color: #1e75f9;
-    height: 60px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    /* para arredondar a borda da imagem */
+    border-radius: 20px 20px 0px 0px;
+    
 }
-.cart svg{
-    margin-right: 10px;
+.cursos h3{
+    color: #ffffff;
+    font-size: 16px;
+    margin: 10px 0px;
+    text-align: center;
+    font-weight: 200;
 }
-.produto{
-    display: flex;
-    justify-content: space-evenly;
+.cursos h2{
+    color: #c0eefe;
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 25px;
 }
-.produto article{
+.cursos p{
+    color: #c0eefe;
+    font-size: 14px;
+    margin: 10px;
+    text-align: center;
+    line-height: 20px;
+}
+.cursos a{
+    font-size: 14.4px;
+    color: #ffffff;
+    padding: 10px 0px;
+    text-align: center;
+    border-bottom: solid 1px #ffffff;
+    font-weight: 200;
+}
+.cursos h4{
+    padding: 10px 0px;
+    text-align: center;
+}
+.layoutCursos{
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    justify-content: space-around;
+}
+.col img{
+    width: 100%;
+    border-radius: 40px;
+}
+.row{
+    background-color: #c0eefe;
+    border-radius: 40px;
 }
