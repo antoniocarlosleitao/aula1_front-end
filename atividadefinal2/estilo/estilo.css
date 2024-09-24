@@ -33,7 +33,7 @@ ul li a:hover{
     align-items: center;
 }
 #logoFundo{
-    background-color: #0F0F0F;
+    background-color: #20ee4d;
     width: 233.5px;
     height: 88px;
     display: flex;
@@ -78,7 +78,7 @@ nav{
 }
 #texto2 h3{
     font-size: 18px;
-    color:  #007BFF;
+    color:  #ccff3d;
 }
 header section h2{
     color: #003057;
@@ -103,8 +103,8 @@ main section h1{
     color: #003057;
     font-size: 32px;
 }
-.cursos{
-    background-color: #003057;
+.cortes{
+    background-color: #81F79F;
     /* 100%/4=25% */
     width: 22%;
     margin: 1rem;
@@ -117,7 +117,7 @@ main section h1{
     z-index: 1000;
     
 }
-.cursos img{
+.cortes img{
     width: 100%;
     /* para arredondar a borda da imagem */
     border-radius: 20px 20px 0px 0px;
